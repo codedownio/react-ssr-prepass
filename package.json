@@ -1,5 +1,5 @@
 {
-  "name": "react-ssr-prepass",
+  "name": "@codedown/react-ssr-prepass",
   "version": "1.4.0",
   "description": "A custom partial React SSR renderer for prefetching and suspense",
   "main": "dist/react-ssr-prepass.js",
@@ -16,7 +16,6 @@
   ],
   "sideEffects": false,
   "scripts": {
-    "prepublishOnly": "run-s flow test build",
     "build": "rollup -c rollup.config.js",
     "postbuild": "node ./scripts/copy-typings.js",
     "test": "jest",
